@@ -169,7 +169,7 @@ then the installation will go by itself!
 		try:
 			os.system("clear")
 			print(f"{Fore.WHITE}[{Fore.RED}*{Fore.WHITE}] {Fore.LIGHTYELLOW_EX}User Recon installing...")
-			os.system("cd && apt && git clone https://github.com/thelinuxchoice/userrecon && cd userrecon && chmod +X *&& clear")
+			os.system("cd && apt install python git -y && git clone https://github.com/thelinuxchoice/userrecon && cd userrecon && chmod +X *&& clear")
 			print(f"{Fore.WHITE}[{Fore.RED}*{Fore.WHITE}] {Fore.LIGHTYELLOW_EX}User Recon installed successfully!")
 			time.sleep(2)
 			os.system('clear')
